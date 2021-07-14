@@ -68,9 +68,7 @@ body{
     grid-column-gap:30px;
     grid-row-gap: 27px;
     margin-left: 180px;
-    margin-right: 210px; 
-    
-    
+    margin-right: 210px;    
 }
 .blog{
     margin-bottom: 27px;
@@ -105,6 +103,7 @@ body{
 }
 
 /* .............Container3........ */
+
 .container3{
     margin-top: 80px;
     margin-left: 50px;
@@ -117,7 +116,7 @@ body{
 }
 
 
-/* loginform */
+/* ....loginform..... */
 
 
 .login-form{
@@ -145,11 +144,6 @@ body{
             padding: 5px;
             border: 1px;
 }
-
-
-
-
-
 
 
 /* ..........FOOTER......... */
@@ -180,4 +174,61 @@ body{
     height: 31px;
 }
 
+/* ...........Media Set......... */
 
+/* .........MObile Device......... */
+
+@media only screen and (max-width:688px) {
+.container1, .container2, .container3{
+    width: 100%;  
+}
+    .first-view, .container2, .container3{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+.banner-info{
+    padding-bottom: 60px;
+    padding-left: 15px;
+}
+.banner img{
+    width: 329px;
+    height: 260px;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    padding-left: 15px;
+}
+.banner-text{
+    font-size: 34px;
+    color: #FFFF;
+    width: 278px;
+    height: 138px;
+    margin-top: 112px;
+    padding-bottom:27px;  
+} 
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.clone-web{
+    width: 330px;
+    height: 250px;
+}
+.foot-image{
+    width: 250px;
+    height: 80px;  
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.footer-icon{
+    display: flex;
+    width: 100px;
+    height: 32px;
+    justify-content: space-around;
+    
+}
