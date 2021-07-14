@@ -89,9 +89,59 @@ body{
     margin-top: 0;
     margin-bottom: 0;  
     margin-left:15px;
-
 }
-/* FOOTER */
+
+/* .............Container3........ */
+.container3{
+    margin-top: 80px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.clone-web{
+    width: 800px;
+    height: 550px;
+}
+
+
+/* loginform */
+
+
+.login-form{
+            display: flex;
+            flex-direction: column;
+            margin-top: 100px;
+}
+.login-form p{
+    color:navy;
+    font-size: 12px;
+}
+.login-form h2{
+    margin: 0px;
+}
+.login-form input , button{
+            font-size: 20px;
+            margin-top: 10px;
+            border: 1px solid rgb(21, 155, 155);
+            border-radius: 3px;
+            
+}
+.login-form button{
+            background-color: navy;
+            color:white;
+            padding: 5px;
+            border: 1px;
+}
+
+
+
+
+
+
+
+/* ..........FOOTER......... */
+
+
 .foot-align{
     display: flex;
     flex-direction: column;
