@@ -10,36 +10,49 @@ body{
     background-color: #2D25A0;
     width: 1550px;
     height: 677px;
+    
 }
 .first-view{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-around;
+}
+.banner-info{
+    padding-bottom: 150px;
 }
 .banner-text{
     font-size: 64px;
     color: #FFFF;
     width: 485px;
     height: 230px;
-    padding-top: 150px;
+    margin-top: 207px;
     padding-bottom:27px;
+    
 }
+.button{
+    width: 135px;
+    height: 45px;
+    font-size: 16px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 5px;
+}
+.button:hover{
+    width:200px ;
+    font-size: 1.5em;
+}
+.button-text{
+    color: #FFFF;
+    text-decoration: none;
+}
+
 .banner img{
     width: 556.01px;
     height: 438px;
     padding-top: 153px;
     padding-bottom: 86px;  
 }
-.link{
-    font-size: 16px;
-    color: #FFFF;
-    text-decoration: none;
-    background-color: #E02C6D;
-    padding: 10px 24px;
-}
-.banner-info{
-    padding-bottom: 150px;
-}
+
 
 
 /* ...................
