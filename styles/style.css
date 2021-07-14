@@ -93,9 +93,28 @@ body{
 }
 /* FOOTER */
 .foot-align{
-    
-     width: 483px;
-     height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foot-image{
+    width: 483;
+    height: 110;  
+    padding-top: 100px;
+}
+.footer-icon{
+    display: flex;
+    font-size: 2em;
+    width: 203px;
+    height: 32px;
+    justify-content: space-between;
+}
+.footer-text{
+    margin-top: 20px;
+    margin-bottom: 63px;
+    font-weight: 50;
+    width: 236px;
+    height: 31px;
 }
 
 
