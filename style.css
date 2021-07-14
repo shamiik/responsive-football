@@ -2,10 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
  /* ............ Utilities......*/
+ 
 body{
     font-family: 'Poppins', sans-serif;   
     margin: 0;
 }
+
+  /* .......................
+        container1
+    ...................... ..*/
 .container1{
     background-color: #2D25A0;
     width: 1550px;
@@ -14,7 +19,6 @@ body{
 }
 .first-view{
     display: flex;
-    /* align-items: center; */
     justify-content: space-around;
 }
 .banner-info{
@@ -56,8 +60,9 @@ body{
 
 
 /* ...................
-         Second
+         Container 2
    .................... */
+
 
 .container2{
     margin-top: 70px;
@@ -174,6 +179,7 @@ body{
     height: 31px;
 }
 
+
 /* ...........Media Set......... */
 
 /* .........MObile Device......... */
@@ -215,8 +221,8 @@ body{
 
 }
 .clone-web{
-    width: 330px;
-    height: 250px;
+    width: 300px;
+    height: 225px;
 }
 .foot-image{
     width: 250px;
@@ -230,5 +236,4 @@ body{
     width: 100px;
     height: 32px;
     justify-content: space-around;
-    
 }
